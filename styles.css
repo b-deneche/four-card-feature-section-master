@@ -1,5 +1,5 @@
 @import url('https://fonts.google.com/specimen/Poppins&display=swap&subset=latin-ext&weight=200,400,600');
-
+/* Color Variables */
 :root{
     --soft-blue: hsl(231, 69%, 60%);
     --cyan: hsl(180, 66%, 49%);
@@ -8,7 +8,7 @@
     --grayish-blue: hsl(229, 6%, 66%);
     --very-light-gray: hsl(0, 0%, 98%);
 }
-
+/* Global Styling */
 * {
     margin: 0;
     padding: 0;
@@ -16,6 +16,7 @@
     font-family: 'Poppins', sans-serif;
     font-size: clamp(14px, 2vw, 16px);
 }
+/* Body Styling */
 body {
     background-color: var(--very-light-gray);
     color: var(--dark-blue);
@@ -26,6 +27,16 @@ body {
     text-align: center;
     padding: 2rem 2rem 2rem 2rem;
 }
+/* Footer Styling */
+footer {
+    font-size: clamp(0.7rem , 0.8vw, 0.75rem);
+    color: var(--grayish-blue);}
+footer a {
+    color: var(--grayish-blue);
+    text-decoration: none;
+    font-weight: bold;
+}
+/* Main Heading Styling */
 h1 {
     font-size: clamp(1.25rem, 4vw, 2rem);
     margin-bottom: 1rem;
@@ -33,11 +44,13 @@ h1 {
     font-family: poppins, sans-serif;
     font-weight: lighter;
 }
+/* Subheading Styling */
 h2 {
     font-size: clamp(1.25rem, 4vw, 2rem);
     color: var(--dark-blue);
     margin-bottom: 1rem;
 }
+/* Paragraph Styling */
 p {
     max-width: 500px;
     margin: 0 auto 0 auto;
